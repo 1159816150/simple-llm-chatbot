@@ -205,3 +205,13 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# 环境变量文件（存放API密钥，禁止提交）
+.env
+
+# Python虚拟环境（可选，若使用虚拟环境则添加）
+venv/
+env/
+
+# 日志文件（可选，后续若添加日志功能则添加）
+*.log
